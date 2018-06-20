@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3DB4B2920DAEDD6001E800F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB4B2820DAEDD6001E800F /* AppDelegate.swift */; };
+		C3DB4B2B20DAEDD6001E800F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB4B2A20DAEDD6001E800F /* ViewController.swift */; };
+		C3DB4B2E20DAEDD6001E800F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B2C20DAEDD6001E800F /* Main.storyboard */; };
+		C3DB4B3020DAEDD6001E800F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B2F20DAEDD6001E800F /* Assets.xcassets */; };
+		C3DB4B3320DAEDD6001E800F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B3120DAEDD6001E800F /* LaunchScreen.storyboard */; };
+		C3DB4B3E20DAEDD6001E800F /* Bunny_HopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB4B3D20DAEDD6001E800F /* Bunny_HopTests.swift */; };
+		C3DB4B4920DAEDD6001E800F /* Bunny_HopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB4B4820DAEDD6001E800F /* Bunny_HopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3DB4B3A20DAEDD6001E800F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3DB4B1D20DAEDD5001E800F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DB4B2420DAEDD5001E800F;
+			remoteInfo = "Bunny Hop";
+		};
+		C3DB4B4520DAEDD6001E800F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3DB4B1D20DAEDD5001E800F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DB4B2420DAEDD5001E800F;
+			remoteInfo = "Bunny Hop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3DB4B2520DAEDD5001E800F /* Bunny Hop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bunny Hop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DB4B2820DAEDD6001E800F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3DB4B2A20DAEDD6001E800F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3DB4B2D20DAEDD6001E800F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3DB4B2F20DAEDD6001E800F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3DB4B3220DAEDD6001E800F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3DB4B3420DAEDD6001E800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DB4B3920DAEDD6001E800F /* Bunny HopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny HopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DB4B3D20DAEDD6001E800F /* Bunny_HopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_HopTests.swift; sourceTree = "<group>"; };
+		C3DB4B3F20DAEDD6001E800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DB4B4420DAEDD6001E800F /* Bunny HopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny HopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DB4B4820DAEDD6001E800F /* Bunny_HopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_HopUITests.swift; sourceTree = "<group>"; };
+		C3DB4B4A20DAEDD6001E800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3DB4B2220DAEDD5001E800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DB4B3620DAEDD6001E800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DB4B4120DAEDD6001E800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3DB4B1C20DAEDD5001E800F = {
+			isa = PBXGroup;
+			children = (
+				C3DB4B2720DAEDD6001E800F /* Bunny Hop */,
+				C3DB4B3C20DAEDD6001E800F /* Bunny HopTests */,
+				C3DB4B4720DAEDD6001E800F /* Bunny HopUITests */,
+				C3DB4B2620DAEDD5001E800F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3DB4B2620DAEDD5001E800F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3DB4B2520DAEDD5001E800F /* Bunny Hop.app */,
+				C3DB4B3920DAEDD6001E800F /* Bunny HopTests.xctest */,
+				C3DB4B4420DAEDD6001E800F /* Bunny HopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DB4B2720DAEDD6001E800F /* Bunny Hop */ = {
+			isa = PBXGroup;
+			children = (
+				C3DB4B2820DAEDD6001E800F /* AppDelegate.swift */,
+				C3DB4B2A20DAEDD6001E800F /* ViewController.swift */,
+				C3DB4B2C20DAEDD6001E800F /* Main.storyboard */,
+				C3DB4B2F20DAEDD6001E800F /* Assets.xcassets */,
+				C3DB4B3120DAEDD6001E800F /* LaunchScreen.storyboard */,
+				C3DB4B3420DAEDD6001E800F /* Info.plist */,
+			);
+			path = "Bunny Hop";
+			sourceTree = "<group>";
+		};
+		C3DB4B3C20DAEDD6001E800F /* Bunny HopTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3DB4B3D20DAEDD6001E800F /* Bunny_HopTests.swift */,
+				C3DB4B3F20DAEDD6001E800F /* Info.plist */,
+			);
+			path = "Bunny HopTests";
+			sourceTree = "<group>";
+		};
+		C3DB4B4720DAEDD6001E800F /* Bunny HopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3DB4B4820DAEDD6001E800F /* Bunny_HopUITests.swift */,
+				C3DB4B4A20DAEDD6001E800F /* Info.plist */,
+			);
+			path = "Bunny HopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3DB4B2420DAEDD5001E800F /* Bunny Hop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DB4B4D20DAEDD6001E800F /* Build configuration list for PBXNativeTarget "Bunny Hop" */;
+			buildPhases = (
+				C3DB4B2120DAEDD5001E800F /* Sources */,
+				C3DB4B2220DAEDD5001E800F /* Frameworks */,
+				C3DB4B2320DAEDD5001E800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bunny Hop";
+			productName = "Bunny Hop";
+			productReference = C3DB4B2520DAEDD5001E800F /* Bunny Hop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3DB4B3820DAEDD6001E800F /* Bunny HopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DB4B5020DAEDD6001E800F /* Build configuration list for PBXNativeTarget "Bunny HopTests" */;
+			buildPhases = (
+				C3DB4B3520DAEDD6001E800F /* Sources */,
+				C3DB4B3620DAEDD6001E800F /* Frameworks */,
+				C3DB4B3720DAEDD6001E800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DB4B3B20DAEDD6001E800F /* PBXTargetDependency */,
+			);
+			name = "Bunny HopTests";
+			productName = "Bunny HopTests";
+			productReference = C3DB4B3920DAEDD6001E800F /* Bunny HopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3DB4B4320DAEDD6001E800F /* Bunny HopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DB4B5320DAEDD6001E800F /* Build configuration list for PBXNativeTarget "Bunny HopUITests" */;
+			buildPhases = (
+				C3DB4B4020DAEDD6001E800F /* Sources */,
+				C3DB4B4120DAEDD6001E800F /* Frameworks */,
+				C3DB4B4220DAEDD6001E800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DB4B4620DAEDD6001E800F /* PBXTargetDependency */,
+			);
+			name = "Bunny HopUITests";
+			productName = "Bunny HopUITests";
+			productReference = C3DB4B4420DAEDD6001E800F /* Bunny HopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3DB4B1D20DAEDD5001E800F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C3DB4B2420DAEDD5001E800F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C3DB4B3820DAEDD6001E800F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3DB4B2420DAEDD5001E800F;
+					};
+					C3DB4B4320DAEDD6001E800F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3DB4B2420DAEDD5001E800F;
+					};
+				};
+			};
+			buildConfigurationList = C3DB4B2020DAEDD5001E800F /* Build configuration list for PBXProject "Bunny Hop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3DB4B1C20DAEDD5001E800F;
+			productRefGroup = C3DB4B2620DAEDD5001E800F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3DB4B2420DAEDD5001E800F /* Bunny Hop */,
+				C3DB4B3820DAEDD6001E800F /* Bunny HopTests */,
+				C3DB4B4320DAEDD6001E800F /* Bunny HopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3DB4B2320DAEDD5001E800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DB4B3320DAEDD6001E800F /* LaunchScreen.storyboard in Resources */,
+				C3DB4B3020DAEDD6001E800F /* Assets.xcassets in Resources */,
+				C3DB4B2E20DAEDD6001E800F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DB4B3720DAEDD6001E800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DB4B4220DAEDD6001E800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3DB4B2120DAEDD5001E800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DB4B2B20DAEDD6001E800F /* ViewController.swift in Sources */,
+				C3DB4B2920DAEDD6001E800F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DB4B3520DAEDD6001E800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DB4B3E20DAEDD6001E800F /* Bunny_HopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DB4B4020DAEDD6001E800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DB4B4920DAEDD6001E800F /* Bunny_HopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3DB4B3B20DAEDD6001E800F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3DB4B2420DAEDD5001E800F /* Bunny Hop */;
+			targetProxy = C3DB4B3A20DAEDD6001E800F /* PBXContainerItemProxy */;
+		};
+		C3DB4B4620DAEDD6001E800F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3DB4B2420DAEDD5001E800F /* Bunny Hop */;
+			targetProxy = C3DB4B4520DAEDD6001E800F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3DB4B2C20DAEDD6001E800F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DB4B2D20DAEDD6001E800F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3DB4B3120DAEDD6001E800F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3DB4B3220DAEDD6001E800F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3DB4B4B20DAEDD6001E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3DB4B4C20DAEDD6001E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3DB4B4E20DAEDD6001E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V3BT885K;
+				INFOPLIST_FILE = "Bunny Hop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-Hop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3DB4B4F20DAEDD6001E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V3BT885K;
+				INFOPLIST_FILE = "Bunny Hop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-Hop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3DB4B5120DAEDD6001E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V3BT885K;
+				INFOPLIST_FILE = "Bunny HopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-HopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Hop.app/Bunny Hop";
+			};
+			name = Debug;
+		};
+		C3DB4B5220DAEDD6001E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V3BT885K;
+				INFOPLIST_FILE = "Bunny HopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-HopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Hop.app/Bunny Hop";
+			};
+			name = Release;
+		};
+		C3DB4B5420DAEDD6001E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V3BT885K;
+				INFOPLIST_FILE = "Bunny HopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-HopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bunny Hop";
+			};
+			name = Debug;
+		};
+		C3DB4B5520DAEDD6001E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6V3BT885K;
+				INFOPLIST_FILE = "Bunny HopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-HopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bunny Hop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3DB4B2020DAEDD5001E800F /* Build configuration list for PBXProject "Bunny Hop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DB4B4B20DAEDD6001E800F /* Debug */,
+				C3DB4B4C20DAEDD6001E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DB4B4D20DAEDD6001E800F /* Build configuration list for PBXNativeTarget "Bunny Hop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DB4B4E20DAEDD6001E800F /* Debug */,
+				C3DB4B4F20DAEDD6001E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DB4B5020DAEDD6001E800F /* Build configuration list for PBXNativeTarget "Bunny HopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DB4B5120DAEDD6001E800F /* Debug */,
+				C3DB4B5220DAEDD6001E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DB4B5320DAEDD6001E800F /* Build configuration list for PBXNativeTarget "Bunny HopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DB4B5420DAEDD6001E800F /* Debug */,
+				C3DB4B5520DAEDD6001E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3DB4B1D20DAEDD5001E800F /* Project object */;
+}
