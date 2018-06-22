@@ -14,6 +14,26 @@
 		C3DB4B3320DAEDD6001E800F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B3120DAEDD6001E800F /* LaunchScreen.storyboard */; };
 		C3DB4B3E20DAEDD6001E800F /* Bunny_HopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB4B3D20DAEDD6001E800F /* Bunny_HopTests.swift */; };
 		C3DB4B4920DAEDD6001E800F /* Bunny_HopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB4B4820DAEDD6001E800F /* Bunny_HopUITests.swift */; };
+		C3DB4B6A20DAEEA2001E800F /* frame-8.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5620DAEEA0001E800F /* frame-8.png */; };
+		C3DB4B6B20DAEEA2001E800F /* frame-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5720DAEEA0001E800F /* frame-2.png */; };
+		C3DB4B6C20DAEEA2001E800F /* frame-9.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5820DAEEA0001E800F /* frame-9.png */; };
+		C3DB4B6D20DAEEA2001E800F /* frame-17.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5920DAEEA0001E800F /* frame-17.png */; };
+		C3DB4B6E20DAEEA2001E800F /* frame-14.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5A20DAEEA0001E800F /* frame-14.png */; };
+		C3DB4B6F20DAEEA2001E800F /* frame-13.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5B20DAEEA0001E800F /* frame-13.png */; };
+		C3DB4B7020DAEEA2001E800F /* frame-12.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5C20DAEEA0001E800F /* frame-12.png */; };
+		C3DB4B7120DAEEA2001E800F /* frame-18.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5D20DAEEA0001E800F /* frame-18.png */; };
+		C3DB4B7220DAEEA2001E800F /* frame-20.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5E20DAEEA1001E800F /* frame-20.png */; };
+		C3DB4B7320DAEEA2001E800F /* frame-5.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B5F20DAEEA1001E800F /* frame-5.png */; };
+		C3DB4B7420DAEEA2001E800F /* frame-16.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6020DAEEA1001E800F /* frame-16.png */; };
+		C3DB4B7520DAEEA2001E800F /* frame-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6120DAEEA1001E800F /* frame-1.png */; };
+		C3DB4B7620DAEEA2001E800F /* frame-6.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6220DAEEA1001E800F /* frame-6.png */; };
+		C3DB4B7720DAEEA2001E800F /* frame-7.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6320DAEEA1001E800F /* frame-7.png */; };
+		C3DB4B7820DAEEA2001E800F /* frame-4.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6420DAEEA1001E800F /* frame-4.png */; };
+		C3DB4B7920DAEEA2001E800F /* frame-11.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6520DAEEA1001E800F /* frame-11.png */; };
+		C3DB4B7A20DAEEA2001E800F /* frame-15.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6620DAEEA2001E800F /* frame-15.png */; };
+		C3DB4B7B20DAEEA2001E800F /* frame-10.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6720DAEEA2001E800F /* frame-10.png */; };
+		C3DB4B7C20DAEEA2001E800F /* frame-3.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6820DAEEA2001E800F /* frame-3.png */; };
+		C3DB4B7D20DAEEA2001E800F /* frame-19.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DB4B6920DAEEA2001E800F /* frame-19.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +67,26 @@
 		C3DB4B4420DAEDD6001E800F /* Bunny HopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny HopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DB4B4820DAEDD6001E800F /* Bunny_HopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_HopUITests.swift; sourceTree = "<group>"; };
 		C3DB4B4A20DAEDD6001E800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DB4B5620DAEEA0001E800F /* frame-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-8.png"; sourceTree = "<group>"; };
+		C3DB4B5720DAEEA0001E800F /* frame-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-2.png"; sourceTree = "<group>"; };
+		C3DB4B5820DAEEA0001E800F /* frame-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-9.png"; sourceTree = "<group>"; };
+		C3DB4B5920DAEEA0001E800F /* frame-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-17.png"; sourceTree = "<group>"; };
+		C3DB4B5A20DAEEA0001E800F /* frame-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-14.png"; sourceTree = "<group>"; };
+		C3DB4B5B20DAEEA0001E800F /* frame-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-13.png"; sourceTree = "<group>"; };
+		C3DB4B5C20DAEEA0001E800F /* frame-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-12.png"; sourceTree = "<group>"; };
+		C3DB4B5D20DAEEA0001E800F /* frame-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-18.png"; sourceTree = "<group>"; };
+		C3DB4B5E20DAEEA1001E800F /* frame-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-20.png"; sourceTree = "<group>"; };
+		C3DB4B5F20DAEEA1001E800F /* frame-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-5.png"; sourceTree = "<group>"; };
+		C3DB4B6020DAEEA1001E800F /* frame-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-16.png"; sourceTree = "<group>"; };
+		C3DB4B6120DAEEA1001E800F /* frame-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-1.png"; sourceTree = "<group>"; };
+		C3DB4B6220DAEEA1001E800F /* frame-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-6.png"; sourceTree = "<group>"; };
+		C3DB4B6320DAEEA1001E800F /* frame-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-7.png"; sourceTree = "<group>"; };
+		C3DB4B6420DAEEA1001E800F /* frame-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-4.png"; sourceTree = "<group>"; };
+		C3DB4B6520DAEEA1001E800F /* frame-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-11.png"; sourceTree = "<group>"; };
+		C3DB4B6620DAEEA2001E800F /* frame-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-15.png"; sourceTree = "<group>"; };
+		C3DB4B6720DAEEA2001E800F /* frame-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-10.png"; sourceTree = "<group>"; };
+		C3DB4B6820DAEEA2001E800F /* frame-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-3.png"; sourceTree = "<group>"; };
+		C3DB4B6920DAEEA2001E800F /* frame-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-19.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +137,26 @@
 		C3DB4B2720DAEDD6001E800F /* Bunny Hop */ = {
 			isa = PBXGroup;
 			children = (
+				C3DB4B6120DAEEA1001E800F /* frame-1.png */,
+				C3DB4B5720DAEEA0001E800F /* frame-2.png */,
+				C3DB4B6820DAEEA2001E800F /* frame-3.png */,
+				C3DB4B6420DAEEA1001E800F /* frame-4.png */,
+				C3DB4B5F20DAEEA1001E800F /* frame-5.png */,
+				C3DB4B6220DAEEA1001E800F /* frame-6.png */,
+				C3DB4B6320DAEEA1001E800F /* frame-7.png */,
+				C3DB4B5620DAEEA0001E800F /* frame-8.png */,
+				C3DB4B5820DAEEA0001E800F /* frame-9.png */,
+				C3DB4B6720DAEEA2001E800F /* frame-10.png */,
+				C3DB4B6520DAEEA1001E800F /* frame-11.png */,
+				C3DB4B5C20DAEEA0001E800F /* frame-12.png */,
+				C3DB4B5B20DAEEA0001E800F /* frame-13.png */,
+				C3DB4B5A20DAEEA0001E800F /* frame-14.png */,
+				C3DB4B6620DAEEA2001E800F /* frame-15.png */,
+				C3DB4B6020DAEEA1001E800F /* frame-16.png */,
+				C3DB4B5920DAEEA0001E800F /* frame-17.png */,
+				C3DB4B5D20DAEEA0001E800F /* frame-18.png */,
+				C3DB4B6920DAEEA2001E800F /* frame-19.png */,
+				C3DB4B5E20DAEEA1001E800F /* frame-20.png */,
 				C3DB4B2820DAEDD6001E800F /* AppDelegate.swift */,
 				C3DB4B2A20DAEDD6001E800F /* ViewController.swift */,
 				C3DB4B2C20DAEDD6001E800F /* Main.storyboard */,
@@ -232,9 +292,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DB4B7720DAEEA2001E800F /* frame-7.png in Resources */,
+				C3DB4B7420DAEEA2001E800F /* frame-16.png in Resources */,
+				C3DB4B7320DAEEA2001E800F /* frame-5.png in Resources */,
+				C3DB4B7C20DAEEA2001E800F /* frame-3.png in Resources */,
 				C3DB4B3320DAEDD6001E800F /* LaunchScreen.storyboard in Resources */,
+				C3DB4B7220DAEEA2001E800F /* frame-20.png in Resources */,
+				C3DB4B6F20DAEEA2001E800F /* frame-13.png in Resources */,
+				C3DB4B7D20DAEEA2001E800F /* frame-19.png in Resources */,
+				C3DB4B7920DAEEA2001E800F /* frame-11.png in Resources */,
+				C3DB4B7120DAEEA2001E800F /* frame-18.png in Resources */,
+				C3DB4B7020DAEEA2001E800F /* frame-12.png in Resources */,
+				C3DB4B6C20DAEEA2001E800F /* frame-9.png in Resources */,
+				C3DB4B7B20DAEEA2001E800F /* frame-10.png in Resources */,
 				C3DB4B3020DAEDD6001E800F /* Assets.xcassets in Resources */,
+				C3DB4B6D20DAEEA2001E800F /* frame-17.png in Resources */,
+				C3DB4B7520DAEEA2001E800F /* frame-1.png in Resources */,
+				C3DB4B6E20DAEEA2001E800F /* frame-14.png in Resources */,
+				C3DB4B7620DAEEA2001E800F /* frame-6.png in Resources */,
+				C3DB4B6A20DAEEA2001E800F /* frame-8.png in Resources */,
 				C3DB4B2E20DAEDD6001E800F /* Main.storyboard in Resources */,
+				C3DB4B7A20DAEEA2001E800F /* frame-15.png in Resources */,
+				C3DB4B7820DAEEA2001E800F /* frame-4.png in Resources */,
+				C3DB4B6B20DAEEA2001E800F /* frame-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +509,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6V3BT885K;
 				INFOPLIST_FILE = "Bunny Hop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-Hop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +525,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6V3BT885K;
 				INFOPLIST_FILE = "Bunny Hop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mlundy.Bunny-Hop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
